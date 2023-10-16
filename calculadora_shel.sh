@@ -37,6 +37,7 @@ divisao() {
 
 raiz_quadrada() {
   resultado=$(echo "scale=2; sqrt($num1)" | bc)
+  resultado=$(echo "scale=2; sqrt($num1)" | bc)
 }
 
 potencia() {
