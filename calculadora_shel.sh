@@ -37,7 +37,7 @@ divisao() {
 
 raiz_quadrada() {
   resultado=$(echo "scale=2; sqrt($num1)" | bc)
-  resultado=$(echo "scale=2; sqrt($num2)" | bc)
+  resultado2=$(echo "scale=2; sqrt($num2)" | bc)
 }
 
 potencia() {
@@ -72,5 +72,5 @@ case $escolha in
     exit 1
     ;;
 esac
-
-echo "O resultado da Operação é: $resultado"
+ 
+echo "O resultado da Operação é: $resultado" "$resultado2"
